@@ -28,5 +28,17 @@ public class RepositorioMysql {
     public int obtenerCantidadPersonas() {
         return this.personas.size();
     }
+    
+    public Persona buscarPersona(String id){
+    
+        for (Persona it : personas) {
+            if(it.getId().equals(id)){
+                return it;
+            }
+        }
+        
+        return null;
+    
+    }
 
 }
