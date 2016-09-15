@@ -104,6 +104,7 @@ public class Ventana extends javax.swing.JFrame {
         
         Persona p = new Persona("123", "juan", "david", "judamo", "ggg");
         daomysql.adicionarPersona(p);
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
